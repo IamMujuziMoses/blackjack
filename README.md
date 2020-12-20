@@ -1,4 +1,5 @@
-### BlackJack
+## BlackJack
 
 Blackjack, formerly also **Black Jack** and **Vingt-Un**, is the American member of a global family of [banking games](https://en.wikipedia.org/wiki/Banking_game) known as [Twenty-One](https://en.wikipedia.org/wiki/Twenty-One_(card_game)), whose relatives include the British game of [Pontoon](https://en.wikipedia.org/wiki/Pontoon_(card_game)) and the European game, [Vingt-et-Un](https://en.wikipedia.org/wiki/Vingt-et-Un).It is a comparing [card game](https://en.wikipedia.org/wiki/Card_game) between one or more players and a dealer, where each player in turn competes against the dealer. Players do not compete against each other. It is played with one or more [decks](https://en.wikipedia.org/wiki/Playing_card) of 52 cards, and is the most widely played [casino](https://en.wikipedia.org/wiki/Casino_game) banking game in the world.
 
+The Blackjack web service provides web methods to shuffle a deck of cards, deal a card from the deck and evaluate a hand of cards. After presenting the web service, we use it to serve as the dealer for a game of blackjack. The Blackjack web service uses an HttpSession object to maintain a unique deck of cards for each client application Several clients can use the service at the same time, but web method calls made by a specific client use only the deck of cards stored in the client's session.
